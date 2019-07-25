@@ -1,0 +1,30 @@
+{
+  "name": "performon-http-server",
+  "version": "0.0.1",
+  "description": "HTTP and Socket server for Performon device performance monitor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "socket.io",
+    "performon",
+    "performance",
+    "monitor"
+  ],
+  "author": "Brian Alexander",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianalexander/performon-http-server.git"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.19.0",
+    "socket.io": "^2.2.0"
+  }
+}
